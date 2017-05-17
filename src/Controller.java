@@ -8,6 +8,8 @@ import javax.sound.midi.*;
 public class Controller {
 
     //Takes an array of instruments, a mixer, and a player and controls everything somehow
+
+
     private Synthesizer synth;
     private Instrument[] instruments = new Instrument[12];
 
@@ -19,6 +21,18 @@ public class Controller {
 
         }
 
+
+    }
+
+    public void playLoop() {
+
+    }
+
+    public void addLoop(String instrument, int beat) {
+
+    }
+
+    public void clearLoop() {
 
     }
 

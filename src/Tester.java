@@ -12,7 +12,7 @@ public class Tester {
 
             Synthesizer synth = MidiSystem.getSynthesizer();
             Instrument[] instruments = synth.getAvailableInstruments();
-            
+
             for (int i = 0; i < instruments.length; i++) {
                 System.out.println(i + ": " + instruments[i].getName());
             }
