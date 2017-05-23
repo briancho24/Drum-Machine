@@ -1,27 +1,30 @@
 /**
  * Created by celinaperalta on 5/22/17.
  */
+
 import javafx.scene.media.AudioClip;
 
 public class DrumSounds {
 
-    AudioClip AC = new AudioClip("");
-    AudioClip BD = new AudioClip("");
-    AudioClip SD = new AudioClip("");
-    AudioClip LC = new AudioClip("");
-    AudioClip LT = new AudioClip("");
-    AudioClip MC = new AudioClip("");
-    AudioClip MT = new AudioClip("");
-    AudioClip HC = new AudioClip("");
-    AudioClip HT = new AudioClip("");
-    AudioClip CL = new AudioClip("");
-    AudioClip RS = new AudioClip("");
-    AudioClip MA = new AudioClip("");
-    AudioClip CP = new AudioClip("");
-    AudioClip CB = new AudioClip("");
-    AudioClip CY = new AudioClip("");
-    AudioClip OH = new AudioClip("");
-    AudioClip CH = new AudioClip("");
+    public static final AudioClip AC = new AudioClip("");
+    public static final AudioClip BD = new AudioClip("");
+    public static final AudioClip SD = new AudioClip("");
+    public static final AudioClip LC = new AudioClip("");
+    public static final AudioClip LT = new AudioClip("");
+    public static final AudioClip MC = new AudioClip("");
+    public static final AudioClip MT = new AudioClip("");
+    public static final AudioClip HC = new AudioClip("");
+    public static final AudioClip HT = new AudioClip("");
+    public static final AudioClip CL = new AudioClip("");
+    public static final AudioClip RS = new AudioClip("");
+    public static final AudioClip MA = new AudioClip("");
+    public static final AudioClip CP = new AudioClip("");
+    public static final AudioClip CB = new AudioClip("");
+    public static final AudioClip CY = new AudioClip("");
+    public static final AudioClip OH = new AudioClip("");
+    public static final AudioClip CH = new AudioClip("");
+
+    public static final AudioClip[] audioClips = new AudioClip[]{AC, BD, SD, LC, LT, MC, MT, HC, HT, CL, RS, MA, CP, CB, CY, OH, CH};
 
 
 }
