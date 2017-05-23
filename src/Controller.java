@@ -11,6 +11,7 @@ public class Controller {
     //Takes an array of instruments, a mixer, and a player and controls everything
     private Player player;
     private Mixer mixer;
+    private int tempo;
     private String currentInstrument = "";
 
     public Controller() {
@@ -27,12 +28,18 @@ public class Controller {
 
         //where beats is a boolean array of size 16
 
-
-
     }
 
     public void clearLoop(String instrument) {
 
+    }
+
+    public int getTempo() {
+        return tempo;
+    }
+
+    public void setTempo(int tempo) {
+        this.tempo = tempo;
     }
 
 
