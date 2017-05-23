@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -7,9 +8,14 @@ import java.util.List;
 
 public class Controller {
 
-    //Takes an array of instruments, a mixer, and a player and controls everything somehow
+    //Takes an array of instruments, a mixer, and a player and controls everything
+    private Player player;
+    private Mixer mixer;
+    private String currentInstrument = "";
 
-    public Controller(){
+    public Controller() {
+
+        player = new Player();
 
     }
 
@@ -17,11 +23,15 @@ public class Controller {
 
     }
 
-    public void addLoop(List[] loop, String instrument, int beat) {
+    public void addLoop(String instrument, boolean[] beats) {
+
+        //where beats is a boolean array of size 16
+
+
 
     }
 
-    public void clearLoop(List[] loop, String instrument) {
+    public void clearLoop(String instrument) {
 
     }
 

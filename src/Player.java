@@ -6,10 +6,19 @@ import java.util.*;
 public class Player {
 
     //loop has 16 beats, each beat contains arraylist for different instruments
-    List[] loop = new ArrayList[16];
+    private List[] loop = new ArrayList[16];
 
-    public Player(){
+    public Player() {
 
     }
+
+    public void addLoop(String instrument, boolean[] beats) {
+
+    }
+
+    public void clearLoop(String instrument) {
+
+    }
+
 
 }
