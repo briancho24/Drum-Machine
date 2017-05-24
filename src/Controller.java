@@ -24,9 +24,13 @@ public class Controller {
 
     }
 
-    public void addLoop(String instrument, boolean[] beats) {
+    public void addLoop(int instrument, boolean[] beats) {
+
+        if(beats.length != 16)
+            return;
 
         //where beats is a boolean array of size 16
+        player.updateLoop(instrument, beats);
 
     }
 
